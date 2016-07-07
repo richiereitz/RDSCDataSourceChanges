@@ -1,0 +1,6 @@
+framework module RDSCDataSourceChanges {
+  umbrella header "RDSCDataSourceChanges-umbrella.h"
+
+  export *
+  module * { export * }
+}
