@@ -1,0 +1,14 @@
+use_frameworks!
+
+target 'RDSCDataSourceChanges_Example' do
+  pod 'RDSCDataSourceChanges', :path => '../'
+
+  target 'RDSCDataSourceChanges_Tests' do
+    inherit! :search_paths
+
+    pod 'Specta'
+  pod 'Expecta'
+  pod 'FBSnapshotTestCase'
+  pod 'Expecta+Snapshots'
+  end
+end
