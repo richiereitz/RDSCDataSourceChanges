@@ -87,6 +87,14 @@
 		2EDD6B661D2DEC9B007220FE /* RDSCDataSourceChanges.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EDD6B641D2DEC9B007220FE /* RDSCDataSourceChanges.m */; };
 		2EDD6B691D2DED1E007220FE /* RDSCDataSourceIndexPathChanges.h in Headers */ = {isa = PBXBuildFile; fileRef = 2EDD6B671D2DED1E007220FE /* RDSCDataSourceIndexPathChanges.h */; };
 		2EDD6B6A1D2DED1E007220FE /* RDSCDataSourceIndexPathChanges.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EDD6B681D2DED1E007220FE /* RDSCDataSourceIndexPathChanges.m */; };
+		2EDD6B711D2DF46C007220FE /* NSDictionary+RDSCDataSourceIndexPathChanges.h in Headers */ = {isa = PBXBuildFile; fileRef = 2EDD6B6F1D2DF46C007220FE /* NSDictionary+RDSCDataSourceIndexPathChanges.h */; };
+		2EDD6B721D2DF46C007220FE /* NSDictionary+RDSCDataSourceIndexPathChanges.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EDD6B701D2DF46C007220FE /* NSDictionary+RDSCDataSourceIndexPathChanges.m */; };
+		2EDD6B781D2DF59D007220FE /* NSOrderedSet+RDSCDataChanges.h in Headers */ = {isa = PBXBuildFile; fileRef = 2EDD6B761D2DF59D007220FE /* NSOrderedSet+RDSCDataChanges.h */; };
+		2EDD6B791D2DF59D007220FE /* NSOrderedSet+RDSCDataChanges.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EDD6B771D2DF59D007220FE /* NSOrderedSet+RDSCDataChanges.m */; };
+		2EDD6B7C1D2DF97C007220FE /* RUOrderedDictionary+RDSCDataSourceIndexPathChanges.h in Headers */ = {isa = PBXBuildFile; fileRef = 2EDD6B7A1D2DF97C007220FE /* RUOrderedDictionary+RDSCDataSourceIndexPathChanges.h */; };
+		2EDD6B7D1D2DF97C007220FE /* RUOrderedDictionary+RDSCDataSourceIndexPathChanges.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EDD6B7B1D2DF97C007220FE /* RUOrderedDictionary+RDSCDataSourceIndexPathChanges.m */; };
+		2EDD6B801D2DFAF7007220FE /* NSSet+RDSCSetDifferences.h in Headers */ = {isa = PBXBuildFile; fileRef = 2EDD6B7E1D2DFAF7007220FE /* NSSet+RDSCSetDifferences.h */; };
+		2EDD6B811D2DFAF7007220FE /* NSSet+RDSCSetDifferences.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EDD6B7F1D2DFAF7007220FE /* NSSet+RDSCSetDifferences.m */; };
 		2F0590F8AB1734BF1D26FBC3010612C6 /* UIImage+RULaunchImage.h in Headers */ = {isa = PBXBuildFile; fileRef = 6629C6629EA3D603B5D93A9B9E8B6149 /* UIImage+RULaunchImage.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2F427490ACABC4408D57CC0592276678 /* EXPDoubleTuple.h in Headers */ = {isa = PBXBuildFile; fileRef = A15D8423D09EF023650ECA1A7F64FADA /* EXPDoubleTuple.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2FA141F4390ECC25FD5D39BA730D622C /* UIFont+RUHelveticaNeue.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CEF3CA7B19984452E3DDAB5917CD700 /* UIFont+RUHelveticaNeue.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -573,6 +581,15 @@
 		2EDD6B641D2DEC9B007220FE /* RDSCDataSourceChanges.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RDSCDataSourceChanges.m; sourceTree = "<group>"; };
 		2EDD6B671D2DED1E007220FE /* RDSCDataSourceIndexPathChanges.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RDSCDataSourceIndexPathChanges.h; sourceTree = "<group>"; };
 		2EDD6B681D2DED1E007220FE /* RDSCDataSourceIndexPathChanges.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RDSCDataSourceIndexPathChanges.m; sourceTree = "<group>"; };
+		2EDD6B6F1D2DF46C007220FE /* NSDictionary+RDSCDataSourceIndexPathChanges.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+RDSCDataSourceIndexPathChanges.h"; sourceTree = "<group>"; };
+		2EDD6B701D2DF46C007220FE /* NSDictionary+RDSCDataSourceIndexPathChanges.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+RDSCDataSourceIndexPathChanges.m"; sourceTree = "<group>"; };
+		2EDD6B751D2DF55B007220FE /* NSOrderedSet+RDSCDataChangesBlocks.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSOrderedSet+RDSCDataChangesBlocks.h"; sourceTree = "<group>"; };
+		2EDD6B761D2DF59D007220FE /* NSOrderedSet+RDSCDataChanges.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSOrderedSet+RDSCDataChanges.h"; sourceTree = "<group>"; };
+		2EDD6B771D2DF59D007220FE /* NSOrderedSet+RDSCDataChanges.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSOrderedSet+RDSCDataChanges.m"; sourceTree = "<group>"; };
+		2EDD6B7A1D2DF97C007220FE /* RUOrderedDictionary+RDSCDataSourceIndexPathChanges.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "RUOrderedDictionary+RDSCDataSourceIndexPathChanges.h"; sourceTree = "<group>"; };
+		2EDD6B7B1D2DF97C007220FE /* RUOrderedDictionary+RDSCDataSourceIndexPathChanges.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "RUOrderedDictionary+RDSCDataSourceIndexPathChanges.m"; sourceTree = "<group>"; };
+		2EDD6B7E1D2DFAF7007220FE /* NSSet+RDSCSetDifferences.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSSet+RDSCSetDifferences.h"; sourceTree = "<group>"; };
+		2EDD6B7F1D2DFAF7007220FE /* NSSet+RDSCSetDifferences.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSSet+RDSCSetDifferences.m"; sourceTree = "<group>"; };
 		2F9969C56A860F46CE74F67853E86D07 /* UIImage+RULaunchImage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+RULaunchImage.m"; path = "Pod/Classes/Category/UIImage/UIImage+RULaunchImage.m"; sourceTree = "<group>"; };
 		2FED9F2FCEC3AD7C22CC9919DF9B4A01 /* NSValue+Expecta.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSValue+Expecta.h"; path = "Expecta/NSValue+Expecta.h"; sourceTree = "<group>"; };
 		30818ED76C81EB77C657C2E83CECF0BD /* UINavigationController+RUNavbarColorSetter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UINavigationController+RUNavbarColorSetter.h"; path = "Pod/Classes/Category/UINavigationController/UINavigationController+RUNavbarColorSetter.h"; sourceTree = "<group>"; };
@@ -1070,10 +1087,19 @@
 		2A7300567A43E8C9037502EDC9FD58A2 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				2EDD6B6F1D2DF46C007220FE /* NSDictionary+RDSCDataSourceIndexPathChanges.h */,
+				2EDD6B701D2DF46C007220FE /* NSDictionary+RDSCDataSourceIndexPathChanges.m */,
+				2EDD6B761D2DF59D007220FE /* NSOrderedSet+RDSCDataChanges.h */,
+				2EDD6B771D2DF59D007220FE /* NSOrderedSet+RDSCDataChanges.m */,
+				2EDD6B751D2DF55B007220FE /* NSOrderedSet+RDSCDataChangesBlocks.h */,
+				2EDD6B7E1D2DFAF7007220FE /* NSSet+RDSCSetDifferences.h */,
+				2EDD6B7F1D2DFAF7007220FE /* NSSet+RDSCSetDifferences.m */,
 				2EDD6B631D2DEC9B007220FE /* RDSCDataSourceChanges.h */,
 				2EDD6B641D2DEC9B007220FE /* RDSCDataSourceChanges.m */,
 				2EDD6B671D2DED1E007220FE /* RDSCDataSourceIndexPathChanges.h */,
 				2EDD6B681D2DED1E007220FE /* RDSCDataSourceIndexPathChanges.m */,
+				2EDD6B7A1D2DF97C007220FE /* RUOrderedDictionary+RDSCDataSourceIndexPathChanges.h */,
+				2EDD6B7B1D2DF97C007220FE /* RUOrderedDictionary+RDSCDataSourceIndexPathChanges.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -1736,11 +1762,14 @@
 				2EDD6B691D2DED1E007220FE /* RDSCDataSourceIndexPathChanges.h in Headers */,
 				3B5B7495707BF7133B9FB3F834045611 /* EXPBlockDefinedMatcher.h in Headers */,
 				5EA7043FE10E75D02F3C3052AF8B8318 /* EXPDefines.h in Headers */,
+				2EDD6B7C1D2DF97C007220FE /* RUOrderedDictionary+RDSCDataSourceIndexPathChanges.h in Headers */,
 				2EDD6B651D2DEC9B007220FE /* RDSCDataSourceChanges.h in Headers */,
+				2EDD6B781D2DF59D007220FE /* NSOrderedSet+RDSCDataChanges.h in Headers */,
 				2F427490ACABC4408D57CC0592276678 /* EXPDoubleTuple.h in Headers */,
 				837B593D7C1D01B4EA400247309D6AB0 /* Expecta-umbrella.h in Headers */,
 				E1EC4532663CA75DE5BD00CB0A56814D /* Expecta.h in Headers */,
 				2E14619153A453BB8DF389FB6EA147BE /* ExpectaObject.h in Headers */,
+				2EDD6B711D2DF46C007220FE /* NSDictionary+RDSCDataSourceIndexPathChanges.h in Headers */,
 				AFFC8900E52BBEC72059334132F3A8F3 /* ExpectaSupport.h in Headers */,
 				67459AD239EF669A365519E06B45DCFE /* EXPExpect.h in Headers */,
 				6E1D978790705E137FDE439AA68DD3AA /* EXPFloatTuple.h in Headers */,
@@ -1756,6 +1785,7 @@
 				131532787AD40BE1F35DF288D2E6FFD7 /* EXPMatchers+beInTheRangeOf.h in Headers */,
 				79558B1F97ABE4AB8942DC18BEBD4B82 /* EXPMatchers+beKindOf.h in Headers */,
 				0D16B556212D317A0D4FEB71E102E207 /* EXPMatchers+beLessThan.h in Headers */,
+				2EDD6B801D2DFAF7007220FE /* NSSet+RDSCSetDifferences.h in Headers */,
 				37A2D0F8493469EF2495FC689440F079 /* EXPMatchers+beLessThanOrEqualTo.h in Headers */,
 				E735386085CE344F6A01178CF4763852 /* EXPMatchers+beNil.h in Headers */,
 				397B320B7C59C168CC5B62E18ED8DEA0 /* EXPMatchers+beSubclassOf.h in Headers */,
@@ -2330,8 +2360,10 @@
 				CE3F4ECBB0BC095577D66AE50C8E604C /* EXPFloatTuple.m in Sources */,
 				201BF9C605852822CA5A65ADE282A310 /* EXPMatcherHelpers.m in Sources */,
 				BA12B131F10BCE3BE6E9A02FC908FE9D /* EXPMatchers+beCloseTo.m in Sources */,
+				2EDD6B791D2DF59D007220FE /* NSOrderedSet+RDSCDataChanges.m in Sources */,
 				17572374B2AE183C6347C41E8DF8E579 /* EXPMatchers+beFalsy.m in Sources */,
 				F12D57414A73406831CC032A7170DBFF /* EXPMatchers+beginWith.m in Sources */,
+				2EDD6B721D2DF46C007220FE /* NSDictionary+RDSCDataSourceIndexPathChanges.m in Sources */,
 				1312A7D381C51428CF481E33E3D37901 /* EXPMatchers+beGreaterThan.m in Sources */,
 				1B0389CD88AA949B34DC7269030FEC6F /* EXPMatchers+beGreaterThanOrEqualTo.m in Sources */,
 				66A27898E989A3FA5C15AA671C4536F0 /* EXPMatchers+beIdenticalTo.m in Sources */,
@@ -2352,8 +2384,10 @@
 				403292D82DA62291204BF59524BC4EDB /* EXPMatchers+haveCountOf.m in Sources */,
 				FC45858927D3B6A0F922C4B697B04A38 /* EXPMatchers+match.m in Sources */,
 				931D410B9F8ACB935883DF8C59F9C93E /* EXPMatchers+postNotification.m in Sources */,
+				2EDD6B7D1D2DF97C007220FE /* RUOrderedDictionary+RDSCDataSourceIndexPathChanges.m in Sources */,
 				2EDD6B661D2DEC9B007220FE /* RDSCDataSourceChanges.m in Sources */,
 				2CFE2898496C1C7096DB8DA43AF19103 /* EXPMatchers+raise.m in Sources */,
+				2EDD6B811D2DFAF7007220FE /* NSSet+RDSCSetDifferences.m in Sources */,
 				FE8E34356D24F6759A8B010ED2F5707B /* EXPMatchers+raiseWithReason.m in Sources */,
 				E0A077DFB064B79685B810CCEFB2F1EF /* EXPMatchers+respondTo.m in Sources */,
 				EF6497EE123F6BC0C1B09717437C5908 /* EXPUnsupportedObject.m in Sources */,
