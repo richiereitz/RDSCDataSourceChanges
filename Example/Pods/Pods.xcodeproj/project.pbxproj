@@ -83,6 +83,10 @@
 		2E14619153A453BB8DF389FB6EA147BE /* ExpectaObject.h in Headers */ = {isa = PBXBuildFile; fileRef = D8C33A17578D8E56E01AD3E767B9A824 /* ExpectaObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2E249CE06E387C07827E36AD3893DCF1 /* NSString+RUEmailValidation.m in Sources */ = {isa = PBXBuildFile; fileRef = 14AB786D8672E942499DA032ECF1991A /* NSString+RUEmailValidation.m */; };
 		2EB803501FAFE22479FACE945071C7AD /* UIView+RUCancelControlTracking.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DE0AB30F6292D9D035AC7A6B63C25B4 /* UIView+RUCancelControlTracking.m */; };
+		2EDD6B651D2DEC9B007220FE /* RDSCDataSourceChanges.h in Headers */ = {isa = PBXBuildFile; fileRef = 2EDD6B631D2DEC9B007220FE /* RDSCDataSourceChanges.h */; };
+		2EDD6B661D2DEC9B007220FE /* RDSCDataSourceChanges.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EDD6B641D2DEC9B007220FE /* RDSCDataSourceChanges.m */; };
+		2EDD6B691D2DED1E007220FE /* RDSCDataSourceIndexPathChanges.h in Headers */ = {isa = PBXBuildFile; fileRef = 2EDD6B671D2DED1E007220FE /* RDSCDataSourceIndexPathChanges.h */; };
+		2EDD6B6A1D2DED1E007220FE /* RDSCDataSourceIndexPathChanges.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EDD6B681D2DED1E007220FE /* RDSCDataSourceIndexPathChanges.m */; };
 		2F0590F8AB1734BF1D26FBC3010612C6 /* UIImage+RULaunchImage.h in Headers */ = {isa = PBXBuildFile; fileRef = 6629C6629EA3D603B5D93A9B9E8B6149 /* UIImage+RULaunchImage.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2F427490ACABC4408D57CC0592276678 /* EXPDoubleTuple.h in Headers */ = {isa = PBXBuildFile; fileRef = A15D8423D09EF023650ECA1A7F64FADA /* EXPDoubleTuple.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2FA141F4390ECC25FD5D39BA730D622C /* UIFont+RUHelveticaNeue.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CEF3CA7B19984452E3DDAB5917CD700 /* UIFont+RUHelveticaNeue.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -288,7 +292,6 @@
 		AB00C705B7975195E2055FD3874EBDD4 /* RUHorizontalTitlePagingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 768F9BFAF0405666C88F1E8D1F5B21CC /* RUHorizontalTitlePagingView.m */; };
 		ABCE3551D0FFF452802ABE0D7DADA22B /* RUStaticVariableSynthesization.h in Headers */ = {isa = PBXBuildFile; fileRef = 1566FAB73F07FB38DF23129683D62FFB /* RUStaticVariableSynthesization.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AC9CE0ECC78F93770B8007D360389BAB /* XCTestCase+Specta.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A5625687E8AAB1B1CE985361D6FEF05 /* XCTestCase+Specta.m */; };
-		AE9B998C5EA8F554EA674E20FA5A3B65 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C13045FCA8FFCA8AA7BF80485C10AC5 /* ReplaceMe.m */; };
 		AEFBBB08AC23235828E10FC2F26E546A /* RUFullscreenRotatingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 82D813645C6CC73EFD1D64F79B0C2F61 /* RUFullscreenRotatingView.m */; };
 		AEFC2DFECCE8816BF825F05EA96E744E /* UIInterfaceOrientation+RUUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 3B31BB743746F19C6E03B580302045E1 /* UIInterfaceOrientation+RUUtil.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AF1F46668D4591602887998C6E9C10AD /* EXPMatchers+beCloseTo.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E875796BCE67250FFA9680BA8E2BADE /* EXPMatchers+beCloseTo.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -566,6 +569,10 @@
 		2E0BE58FB7C6AB2BCAD18F2271246391 /* UIImage+RURotation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+RURotation.h"; path = "Pod/Classes/Category/UIImage/UIImage+RURotation.h"; sourceTree = "<group>"; };
 		2EBFBB7D62939CEEA85DC46FE3C3DCC3 /* RUModalView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RUModalView.h; path = Pod/Classes/View/Modal/RUModalView.h; sourceTree = "<group>"; };
 		2EC5CDD33242717F127D8422A523C642 /* UILabel+RUAttributes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UILabel+RUAttributes.h"; path = "Pod/Classes/Category/UILabel/UILabel+RUAttributes.h"; sourceTree = "<group>"; };
+		2EDD6B631D2DEC9B007220FE /* RDSCDataSourceChanges.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RDSCDataSourceChanges.h; sourceTree = "<group>"; };
+		2EDD6B641D2DEC9B007220FE /* RDSCDataSourceChanges.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RDSCDataSourceChanges.m; sourceTree = "<group>"; };
+		2EDD6B671D2DED1E007220FE /* RDSCDataSourceIndexPathChanges.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RDSCDataSourceIndexPathChanges.h; sourceTree = "<group>"; };
+		2EDD6B681D2DED1E007220FE /* RDSCDataSourceIndexPathChanges.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RDSCDataSourceIndexPathChanges.m; sourceTree = "<group>"; };
 		2F9969C56A860F46CE74F67853E86D07 /* UIImage+RULaunchImage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+RULaunchImage.m"; path = "Pod/Classes/Category/UIImage/UIImage+RULaunchImage.m"; sourceTree = "<group>"; };
 		2FED9F2FCEC3AD7C22CC9919DF9B4A01 /* NSValue+Expecta.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSValue+Expecta.h"; path = "Expecta/NSValue+Expecta.h"; sourceTree = "<group>"; };
 		30818ED76C81EB77C657C2E83CECF0BD /* UINavigationController+RUNavbarColorSetter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UINavigationController+RUNavbarColorSetter.h"; path = "Pod/Classes/Category/UINavigationController/UINavigationController+RUNavbarColorSetter.h"; sourceTree = "<group>"; };
@@ -759,7 +766,6 @@
 		9AFE0C804CF34B742E90981402EAE6F4 /* RUColorPickerCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RUColorPickerCell.h; path = Pod/Classes/View/ColorPicker/RUColorPickerCell.h; sourceTree = "<group>"; };
 		9BA2E3E50A56BFF8E136F0CD8DA94901 /* NSString+RUFormatting.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+RUFormatting.h"; path = "Pod/Classes/Category/NSString/NSString+RUFormatting.h"; sourceTree = "<group>"; };
 		9BB64E3A135274250FD51994646F1F04 /* SPTSpec.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SPTSpec.m; path = Specta/Specta/SPTSpec.m; sourceTree = "<group>"; };
-		9C13045FCA8FFCA8AA7BF80485C10AC5 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ReplaceMe.m; sourceTree = "<group>"; };
 		9C96409A14D18C880BCA36098374FF65 /* UIImage+RUImageFromColor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+RUImageFromColor.m"; path = "Pod/Classes/Category/UIImage/UIImage+RUImageFromColor.m"; sourceTree = "<group>"; };
 		9CAB87AEB61C087D63EE772B43543C36 /* SPTCompiledExample.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SPTCompiledExample.m; path = Specta/Specta/SPTCompiledExample.m; sourceTree = "<group>"; };
 		9D55DD7C1B32EC5A4F39B2EBC34B8802 /* EXPMatchers+beTruthy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+beTruthy.h"; path = "Expecta/Matchers/EXPMatchers+beTruthy.h"; sourceTree = "<group>"; };
@@ -1064,7 +1070,10 @@
 		2A7300567A43E8C9037502EDC9FD58A2 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				9C13045FCA8FFCA8AA7BF80485C10AC5 /* ReplaceMe.m */,
+				2EDD6B631D2DEC9B007220FE /* RDSCDataSourceChanges.h */,
+				2EDD6B641D2DEC9B007220FE /* RDSCDataSourceChanges.m */,
+				2EDD6B671D2DED1E007220FE /* RDSCDataSourceIndexPathChanges.h */,
+				2EDD6B681D2DED1E007220FE /* RDSCDataSourceIndexPathChanges.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -1724,8 +1733,10 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2EDD6B691D2DED1E007220FE /* RDSCDataSourceIndexPathChanges.h in Headers */,
 				3B5B7495707BF7133B9FB3F834045611 /* EXPBlockDefinedMatcher.h in Headers */,
 				5EA7043FE10E75D02F3C3052AF8B8318 /* EXPDefines.h in Headers */,
+				2EDD6B651D2DEC9B007220FE /* RDSCDataSourceChanges.h in Headers */,
 				2F427490ACABC4408D57CC0592276678 /* EXPDoubleTuple.h in Headers */,
 				837B593D7C1D01B4EA400247309D6AB0 /* Expecta-umbrella.h in Headers */,
 				E1EC4532663CA75DE5BD00CB0A56814D /* Expecta.h in Headers */,
@@ -2090,6 +2101,7 @@
 		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = RDSC;
 				LastSwiftUpdateCheck = 0730;
 				LastUpgradeCheck = 0700;
 			};
@@ -2123,7 +2135,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				91BB75BF19BB1D6299E3AB6BBCEBFF4B /* RDSCDataSourceChanges-dummy.m in Sources */,
-				AE9B998C5EA8F554EA674E20FA5A3B65 /* ReplaceMe.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2326,6 +2337,7 @@
 				66A27898E989A3FA5C15AA671C4536F0 /* EXPMatchers+beIdenticalTo.m in Sources */,
 				76D337327C10A7555447B69AA1562647 /* EXPMatchers+beInstanceOf.m in Sources */,
 				9BB9159FBA757600D3D4C0FF645F3911 /* EXPMatchers+beInTheRangeOf.m in Sources */,
+				2EDD6B6A1D2DED1E007220FE /* RDSCDataSourceIndexPathChanges.m in Sources */,
 				87FD5F0F682CDEB6A348CA448889E3EA /* EXPMatchers+beKindOf.m in Sources */,
 				0EBFA5FBE4953A83B677CE2A75746761 /* EXPMatchers+beLessThan.m in Sources */,
 				D83677C54D2226C67886A525B0B46FBE /* EXPMatchers+beLessThanOrEqualTo.m in Sources */,
@@ -2340,6 +2352,7 @@
 				403292D82DA62291204BF59524BC4EDB /* EXPMatchers+haveCountOf.m in Sources */,
 				FC45858927D3B6A0F922C4B697B04A38 /* EXPMatchers+match.m in Sources */,
 				931D410B9F8ACB935883DF8C59F9C93E /* EXPMatchers+postNotification.m in Sources */,
+				2EDD6B661D2DEC9B007220FE /* RDSCDataSourceChanges.m in Sources */,
 				2CFE2898496C1C7096DB8DA43AF19103 /* EXPMatchers+raise.m in Sources */,
 				FE8E34356D24F6759A8B010ED2F5707B /* EXPMatchers+raiseWithReason.m in Sources */,
 				E0A077DFB064B79685B810CCEFB2F1EF /* EXPMatchers+respondTo.m in Sources */,
