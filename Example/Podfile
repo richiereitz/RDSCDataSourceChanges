@@ -7,6 +7,7 @@ target 'RDSCDataSourceChanges_Example' do
     inherit! :search_paths
 
     pod 'Specta'
+  pod 'ResplendentUtilities', '0.4.11'
   pod 'Expecta'
   pod 'FBSnapshotTestCase'
   pod 'Expecta+Snapshots'
