@@ -1628,7 +1628,10 @@
 				7814A613C370132954F12C4A135DBC6D /* Products */,
 				C54001A8B77128BB5771528DAC00F363 /* Targets Support Files */,
 			);
+			indentWidth = 4;
 			sourceTree = "<group>";
+			tabWidth = 4;
+			usesTabs = 1;
 		};
 		84409CCF161E317717650AFA9A72020B /* Support Files */ = {
 			isa = PBXGroup;
