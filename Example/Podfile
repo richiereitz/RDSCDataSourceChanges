@@ -2,12 +2,12 @@ use_frameworks!
 
 target 'RDSCDataSourceChanges_Example' do
   pod 'RDSCDataSourceChanges', :path => '../'
+  pod 'RTSMTableSectionManager', '~> 0.1'
 
   target 'RDSCDataSourceChanges_Tests' do
     inherit! :search_paths
 
     pod 'Specta'
-	pod 'RTSMTableSectionManager', '~> 0.1'
   pod 'Expecta'
   pod 'FBSnapshotTestCase'
   pod 'Expecta+Snapshots'
