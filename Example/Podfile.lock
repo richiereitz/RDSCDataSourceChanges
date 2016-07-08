@@ -9,8 +9,11 @@ PODS:
   - FBSnapshotTestCase/Core (2.1.2)
   - FBSnapshotTestCase/SwiftSupport (2.1.2):
     - FBSnapshotTestCase/Core
-  - RDSCDataSourceChanges (0.1.0)
-  - ResplendentUtilities (0.4.11)
+  - RDSCDataSourceChanges (0.1.0):
+    - ResplendentUtilities (~> 0.4.12)
+  - ResplendentUtilities (0.4.12)
+  - RTSMTableSectionManager (0.1.6):
+    - ResplendentUtilities (~> 0.4.9)
   - Specta (1.0.5)
 
 DEPENDENCIES:
@@ -18,7 +21,7 @@ DEPENDENCIES:
   - Expecta+Snapshots
   - FBSnapshotTestCase
   - RDSCDataSourceChanges (from `../`)
-  - ResplendentUtilities (= 0.4.11)
+  - RTSMTableSectionManager (~> 0.1)
   - Specta
 
 EXTERNAL SOURCES:
@@ -29,10 +32,11 @@ SPEC CHECKSUMS:
   Expecta: e1c022fcd33910b6be89c291d2775b3fe27a89fe
   Expecta+Snapshots: c343f410c7a6392f3e22e78f94c44b6c0749a516
   FBSnapshotTestCase: 918c55861356ee83aee7843d759f55a18ff6982b
-  RDSCDataSourceChanges: 3beb301c63c849a922138da0ff340a621fa618d5
-  ResplendentUtilities: 740a5aded6073c73ee4fedd36c554ea51abacac3
+  RDSCDataSourceChanges: 7b6b49bcf6e0636218a3d254f969af2e31fccf04
+  ResplendentUtilities: 185956d176c9aa20b8bcd7d3729a225539073fe1
+  RTSMTableSectionManager: bd26ef6fea245d312099a8d66669c8fb5e2abf50
   Specta: ac94d110b865115fe60ff2c6d7281053c6f8e8a2
 
-PODFILE CHECKSUM: 1e2649378782380f34dd62298390b48b8590c05f
+PODFILE CHECKSUM: 20f2794ca2afc79feb66d8a66931d75198c66515
 
 COCOAPODS: 1.0.1

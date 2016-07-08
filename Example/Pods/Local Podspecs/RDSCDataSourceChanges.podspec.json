@@ -18,5 +18,10 @@
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "RDSCDataSourceChanges/Classes/**/*"
+  "source_files": "RDSCDataSourceChanges/Classes/**/*",
+  "dependencies": {
+    "ResplendentUtilities": [
+      "~> 0.4.12"
+    ]
+  }
 }
